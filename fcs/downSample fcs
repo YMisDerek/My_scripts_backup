@@ -1,0 +1,9 @@
+suppressWarnings(suppressMessages({
+    library(flowCore)
+    library(dplyr)
+}))
+
+f <- read.FCS('20240201YM day3_WT CFSE.tag.fcs')
+f@exprs <- f@exprs[sample(1:nrow(f@exprs), round(0.5*nrow(f@exprs))), ]
+write.FCS(f, filename = '20240201YM day3_WT CFSE.tag.0.5.fcs')
+
