@@ -1,0 +1,20 @@
+Package: deer
+Title: manipulate diff + enrichment analysis dataset
+Version: 0.3.0
+Authors@R: 
+    person("Yuan", "Ming", , "first.last@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: manipulate diff + enrichment analysis dataset.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Collate:'deer.r'
+        'dataSet-class.r'
+        'diffSet-class.r'
+        'enrichSet-class.r'
+        'DEanalysis-class.r'
+        'main.1.make-dataSet.r'
+        'mian.2.diff-analyze.r'
+        'main.3.enrich-analyze.r'
