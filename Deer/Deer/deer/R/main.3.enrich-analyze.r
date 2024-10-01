@@ -1,2 +1,0 @@
-EnrichAnalyze <- function(obj) {
-}
